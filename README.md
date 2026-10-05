@@ -13,10 +13,10 @@ and its thresholds are prototype values that are not clinically validated.
 
 ## Files
  run_demo.py : Runs the whole pipeline on a CSV and writes the results 
- make_fake_data.py | Creates simulated movement (walk, freeze at 20-30 s, walk) 
- fake_movement.csv, movement.csv | Input data (simulated), columns: timestamp, ax, ay, az 
- algorithm_output.csv | Result handed to the database (Member 3) 
- fi_graph.png, normal_vs_detected.png, algorithm_diagram.png | Graphs and diagram for the presentation 
+ make_fake_data.py : Creates simulated movement (walk, freeze at 20-30 s, walk) 
+ fake_movement.csv, movement.csv :Input data (simulated), columns: timestamp, ax, ay, az 
+ algorithm_output.csv :Result handed to the database 
+ fi_graph.png, normal_vs_detected.png, algorithm_diagram.png : Graphs and diagram for the presentation 
 
 ## Run it
 Install the libraries, then run the demo:
