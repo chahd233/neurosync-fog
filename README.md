@@ -18,5 +18,3 @@ and its thresholds are prototype values that are not clinically validated.
  algorithm_output.csv :Result handed to the database 
  fi_graph.png, normal_vs_detected.png, algorithm_diagram.png : Graphs and diagram for the presentation 
 
-## Output columns (algorithm_output.csv)
-datetime, timestamp (seconds), freeze_index, state (NORMAL, UNCERTAIN, PRE_FREEZE, FOG_DETECTED), cue_active, cadence_spm
