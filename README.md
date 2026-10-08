@@ -18,12 +18,5 @@ and its thresholds are prototype values that are not clinically validated.
  algorithm_output.csv :Result handed to the database 
  fi_graph.png, normal_vs_detected.png, algorithm_diagram.png : Graphs and diagram for the presentation 
 
-## Run it
-Install the libraries, then run the demo:
-
-    pip install numpy scipy pandas matplotlib
-    python make_fake_data.py
-    python run_demo.py
-
 ## Output columns (algorithm_output.csv)
 datetime, timestamp (seconds), freeze_index, state (NORMAL, UNCERTAIN, PRE_FREEZE, FOG_DETECTED), cue_active, cadence_spm
